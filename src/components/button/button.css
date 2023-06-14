@@ -1,0 +1,20 @@
+.button-com {
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border: none;
+  line-height: 24px;
+  padding: 0 25px;
+  font-size: 16px;
+  height: 48px;
+  border: none;
+  background-color: #a7414a;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-family: 'DM Serif Display', serif;
+}
+.button-com:hover {
+  background-color: #6a8a82;
+  box-shadow: unset;
+}

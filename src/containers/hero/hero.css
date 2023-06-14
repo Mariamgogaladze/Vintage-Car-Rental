@@ -1,0 +1,80 @@
+.hero-container {
+  display: flex;
+  margin-top: 150px;
+  gap: 80px;
+}
+.introduction-heading {
+  font-size: 52px;
+  color: #282726;
+  font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+.introduction-span {
+  color: #a7414a;
+}
+.background-image {
+  width: 100%;
+}
+
+.introduction-text {
+  color: hsla(196, 29%, 13%, 0.701);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.6px;
+  margin-bottom: 48px;
+  font-family: "DM Serif Display", serif;
+}
+.intro-buttons {
+  display: flex;
+  gap: 20px;
+}
+.pink-gradient {
+  width: 30%;
+  height: 30%;
+  background: #a7414965;
+  filter: blur(200px);
+  position: absolute;
+  z-index: 1;
+  top: 300px;
+  right: -150px;
+}
+@media (max-width: 1220px) {
+  .introduction-heading {
+    font-size: 42px;
+    color: #17252a;
+    font-weight: 600;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+  .hero-container {
+    gap: 40px;
+  }
+}
+@media (max-width: 900px) {
+  .hero-container {
+    align-items: center;
+    gap: 40px;
+  }
+}
+@media (max-width: 870px) {
+  .hero-container {
+    flex-direction: column;
+    gap: 80px;
+  }
+  .green-gradient {
+    width: 30%;
+    height: 30%;
+    background: #2b7a78;
+    filter: blur(200px);
+    position: absolute;
+    z-index: 1;
+    top: 700px;
+    right: -100px;
+  }
+}
+@media (max-width: 500px) {
+  .hero-container {
+    margin-top: 40px;
+  }
+}

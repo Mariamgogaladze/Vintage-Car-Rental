@@ -1,0 +1,45 @@
+html {
+  overflow-x: hidden;
+}
+.padding-in {
+  padding-inline: 64px;
+}
+.margin-in {
+  margin-inline: 64px;
+}
+.margin-top {
+  margin-top: 160px;
+}
+.margin-btm {
+  margin-bottom: 160px;
+}
+.heading {
+  font-style: 40px;
+  color: #282726;
+  font-size: 35px;
+}
+.text {
+  font-size: 20px;
+  color: #a7414a;
+}
+.span {
+  text-align: center;
+  color: #563838;
+  font-size: 20px;
+  max-width: 500px;
+}
+
+@media (max-width: 500px) {
+  .pd-in {
+    padding-inline: 40px;
+  }
+  .mg-in {
+    margin-inline: 40px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 15px;
+  }
+}

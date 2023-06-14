@@ -1,0 +1,27 @@
+.each-team-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: white;
+}
+.team-container{
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.member-name{
+    font-size: 25px;
+    color: #282726;
+}
+.member-image{
+    width: 280px;
+    height: 410px;
+}
+.team-container-text{
+    text-align: center;
+}

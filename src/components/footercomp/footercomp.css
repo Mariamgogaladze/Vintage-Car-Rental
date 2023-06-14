@@ -1,0 +1,60 @@
+.contact-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact-div {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.contact-div img {
+  width: 20px;
+}
+.mail-link {
+  text-decoration: none;
+  color: #282726;
+  cursor: pointer;
+}
+.footer-heading {
+  color: #a7414a;
+}
+.footer-text {
+  color: #282726;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+}
+.list-a {
+  text-decoration: none;
+  color: #282726;
+  cursor: pointer;
+  font-size: 18px;
+}
+.list-a:hover {
+  color: #a7414a;
+}
+.footer-input {
+  padding-block: 10px;
+  text-align: center;
+  font-size: 18px;
+  outline: none;
+}
+.pointer {
+  cursor: pointer;
+}
+.pointer:hover {
+  color: #a7414a;
+}
+.copy{
+  color:#a7414a ;
+  font-size: 10px;
+}
+.copyright{
+  align-self: flex-end;
+}

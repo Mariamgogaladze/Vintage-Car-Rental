@@ -1,0 +1,151 @@
+.bookcar-container {
+  padding: 60px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border: 1px solid #a7414a;
+}
+.bookcar-section {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+label {
+  font-size: 18px;
+  color: #17252a;
+}
+select,
+.date-input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+  color: #a7414a;
+  padding-left: 10px;
+}
+
+select:focus,
+select:hover {
+  outline: none;
+}
+.required {
+  color: red;
+}
+.bookcar-heading {
+  color: #17252a;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.bookcar-options {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.firstthree {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.search-button {
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: #a7414a;
+  color: white;
+  cursor: pointer;
+}
+.search-button:hover {
+  background-color: #6a8a82;
+  color: white;
+
+  box-shadow: unset;
+}
+.bookcar-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  right: 0;
+  top: -700px;
+  left: 0;
+  bottom: -700px;
+  display: none;
+  z-index: 1000000;
+  position: absolute;
+}
+.booking-done {
+  background-color: #c3fabe;
+  color: #2a6817;
+  padding: 10px;
+  font-size: 25px;
+  display: none;
+}
+.error-message {
+  padding: 10px;
+  font-size: 25px;
+  background-color: #a7414943;
+  color: #721c24;
+  display: none;
+}
+.show {
+  display: block;
+}
+@media (max-width: 1160px) {
+  .bookcar-options {
+    flex-direction: row;
+  }
+  .firstthree {
+    flex-direction: column;
+  }
+  .search-button {
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .bookcar-options {
+    flex-direction: column;
+  }
+  .firstthree {
+    flex-direction: column;
+  }
+  .search-button {
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 420px) {
+  .bookcar-container {
+    padding-inline: 20px;
+  }
+  select,
+  .date-input {
+    font-size: 13px;
+    width: 200px;
+  }
+  .search-button {
+    width: 200px;
+  }
+  .bookcar-heading {
+    font-size: 20px;
+  }
+  .error-message {
+    font-size: 15px;
+  }
+  .booking-done {
+    font-size: 15px;
+  }
+}

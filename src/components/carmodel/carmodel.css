@@ -1,0 +1,52 @@
+.carmodel {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.carmodel-table {
+  border: none;
+  width: 300px;
+  height: 520px;
+  border-radius: 20px;
+  border: 1px solid #563838;
+}
+
+td {
+  font-size: 18px;
+  padding-left: 6px;
+  font-weight: 600;
+  border: 1px solid #563838;
+}
+.carmodel-table .price-td {
+  border-top-left-radius: 20px;
+}
+.carmodel-table .price {
+  border-top-right-radius: 20px;
+}
+.carmodel-table .fuel-td {
+  border-bottom-left-radius: 20px;
+}
+.carmodel-table .fuellast-td {
+  border-bottom-right-radius: 20px;
+}
+.first-td {
+  color: #a7414a;
+}
+.second-td {
+  color: #282726;
+}
+@media (max-width: 1320px) {
+  .carmodel-table {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .carmodel {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .car {
+    width: 100%;
+  }
+}

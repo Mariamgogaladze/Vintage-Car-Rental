@@ -1,0 +1,17 @@
+.plan-container{
+    /* margin-top: 150px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+.plan-container-heading{
+    text-align: center;
+    line-height: 50px;
+    font-size: 35px;
+    color: #282726;
+}
+.plan-container-span{
+    color:#A7414a ;
+}

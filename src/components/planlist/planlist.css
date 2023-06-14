@@ -1,0 +1,42 @@
+.planlists-container {
+  display: flex;
+  gap: 80px;
+}
+.plan-icon {
+  width: 120px;
+  height: 80px;
+}
+.planlist-container {
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  flex-direction: column;
+  width: 350px;
+  padding-top: 30px;
+  padding-inline: 20px;
+  height: 300px;
+}
+.planlist-container:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.box-text {
+  color: #a7414a;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.box-heading {
+  color: #282726;
+}
+
+@media (max-width: 1220px) {
+  .planlists-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
