@@ -25,7 +25,7 @@ This is a web application for a vintage car rental company, featuring a unique a
 
 # Demo
 
-  To visit the live demo of the web application , click [here](https://example.com](https://vintage-car-rental.netlify.app/)
+  To visit the live demo of the web application , click [here](https://vintage-car-rental.netlify.app/)
 
 
 
