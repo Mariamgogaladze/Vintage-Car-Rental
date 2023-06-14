@@ -65,16 +65,17 @@ Follow these steps to get the application running on your local machine:
 4. Click the "Reserve Now" button to submit the reservation.
 5. Open your browser and visit the following pages:
 
-- Team: Navigate to https://vintage-car-rental.netlify.app/Team meet our exceptional team members.
+- Team: meet our exceptional team members.
 
-- About: Explore https://vintage-car-rental.netlify.app/About to learn the inspiring story behind our company. Gain insights into our passion for vintage cars, our commitment to exceptional customer experiences, and our dedication to preserving automotive history.
+- About:  learn the inspiring story behind our company. Gain insights into our passion for vintage cars, our commitment to exceptional customer experiences, and our dedication to preserving automotive history.
 
-- Contact: Connect with us through https://vintage-car-rental.netlify.app/ContactField. Fill out the contact form to send us a message or use the provided email address and phone number to reach out directly. We're here to assist you with any inquiries or feedback.
+- Contact: Fill out the contact form to send us a message or use the provided email address and phone number to reach out directly. We're here to assist you with any inquiries or feedback.
 
-- Models: Unveil our exquisite collection of vintage car models by visiting https://vintage-car-rental.netlify.app/Models Immerse yourself in the beauty, craftsmanship, and nostalgia of these iconic automobiles.
+- Models: Unveil our exquisite collection of vintage car models by visiting "Models" page. Immerse yourself in the beauty, craftsmanship, and nostalgia of these iconic automobiles.
 
-- Review: Explore feedback and testimonials from other customers on the "Review" page. Visit  https://vintage-car-rental.netlify.app/Review to read about their experiences with our vintage car rental company.
-
+- Review: Explore feedback and testimonials from other customers on the "Review" page.
+  
+  
 # Technologies Used
 
 - HTML
