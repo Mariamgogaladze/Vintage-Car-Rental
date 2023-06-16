@@ -21,7 +21,7 @@
 and pages you can see in the live demo
 
 
-This is a web application for a vintage car rental company, featuring a unique and personalized design.The entire visual layout and styling have been carefully crafted to reflect the nostalgic charm of vintage cars.Every aspect of the design, including color schemes, typography, and user interface elements, has been thoughtfully chosen to provide an immersive and enjoyable experience for users. Users can browse car models, book rides, and explore different pages such as About, Team, Models, and Contact. The application is built using HTML, CSS, JavaScript, React.js, and TypeScript.
+This is a web application for a vintage car rental company, featuring a unique and personalized design.The entire visual layout and styling have been carefully crafted to reflect the nostalgic charm of vintage cars.Every aspect of the design, including color schemes, typography, and user interface elements, has been thoughtfully chosen to provide an immersive and enjoyable experience for users. Users can book rides, and explore different pages such as About, Team, Models, and Contact. The application is built using HTML, CSS, JavaScript, React.js, and TypeScript.
 
 # Demo
 
